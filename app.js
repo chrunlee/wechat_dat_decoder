@@ -9,9 +9,9 @@ let async = require('async');
 //值是多少自己算。
 let base = 0xFF;
 //扫描文件夹地址，此处需要修改
-let scanDir = 'd:/ttt/load/';
+let scanDir = '';
 //解密后图片的存放文件夹地址，此处需要修改
-let imgDir = 'd:/ttt/load1/';
+let imgDir = '';
 //解密的并发量限制
 let limit = 50;
 
