@@ -1,0 +1,24 @@
+{
+  "name": "wechat_dat_decoder",
+  "version": "1.0.0",
+  "description": "解密微信wechat 中的 dat 图片文件",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrunlee/wechat_dat_decoder.git"
+  },
+  "keywords": [
+    "wechat",
+    "dat文件",
+    "解密"
+  ],
+  "author": "chrunlee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrunlee/wechat_dat_decoder/issues"
+  },
+  "homepage": "https://github.com/chrunlee/wechat_dat_decoder#readme"
+}
