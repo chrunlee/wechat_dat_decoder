@@ -1,8 +1,11 @@
 {
   "name": "wechat_dat_decoder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "解密微信wechat 中的 dat 图片文件",
   "main": "app.js",
+  "bin": {
+    "wechatdat": "./bin/wechatdat"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/chrunlee/wechat_dat_decoder/issues"
   },
-  "homepage": "https://github.com/chrunlee/wechat_dat_decoder#readme"
+  "homepage": "https://github.com/chrunlee/wechat_dat_decoder#readme",
+  "dependencies": {
+    "dirfile": "^1.0.2",
+    "minimist": "^1.2.0"
+  }
 }

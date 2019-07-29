@@ -6,12 +6,18 @@ nodejs版本的解码微信wechat中的dat 图片文件
 git clone git@github.com:chrunlee/wechat_dat_decoder.git
 ```
 
+或命令行模式
+
+```
+npm install wechat_dat_decoder -g
+
+wechatdat -d /home/wechat/ //命令行输入解码目标地址即可
+```
+
 # 使用
 
 - 修改`app.js`文件中的两个目录地址
 - `scanDir` 扫描地址
-- `imgDir` 解密后图片的存放位置
-- `limit` 并发限制
 
 修改后，执行:
 ```
