@@ -1,6 +1,6 @@
 {
   "name": "wechat_dat_decoder",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "解密微信wechat 中的 dat 图片文件",
   "main": "app.js",
   "bin": {
